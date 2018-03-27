@@ -1,27 +1,27 @@
 .main{
   width:120%;
-  background-color: #fff;
+  background-color: #AAAAAA;
   display: flex;
   flex-direction: row;
 }
 .left{
   width: 45%;
-  background-color: #999;
-  border: 5px solid #c45e45;
+  background-color: #39CCCC;
+  border: 5px solid #85144b;
   margin: 5px;
 }
 .right{
   width: 75%;
-  background-color: #666;
-    border: 5px solid #c45e45;
+  background-color: #3D9970;
+    border: 5px solid #85144b;
     margin: 5px;
 }
 #NAME{
-  color: pink;
+  color: #F012BE;
 }
 .left img{
   border-radius: 40px;
-  border: 5px solid #000;
+  border: 5px solid #001f3f;
 }
 /* media queries(1024,1280,768,480)
 1280-1024 : Desktop
