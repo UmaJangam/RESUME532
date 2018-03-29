@@ -1,73 +1,111 @@
-.main{
-  width:120%;
-  background-color: #AAAAAA;
-  display: flex;
-  flex-direction: row;
-}
-.left{
-  width: 45%;
-  background-color: #39CCCC;
-  border: 5px solid #85144b;
+table,tr,td{
+  border:2px solid #000;
+  border-collapse: collapse;
   margin: 5px;
 }
+
+.main{
+  width:100%;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+.left{
+  text-align: justify;
+  background-color: #999;
+  border: 5px solid purple;
+  margin: 5px;
+  flex:1;
+  padding: 5px;
+}
 .right{
-  width: 75%;
-  background-color: #3D9970;
-    border: 5px solid #85144b;
+text-align: justify;
+  background-color: #c45e45;
+    border: 5px solid purple;
     margin: 5px;
+    flex:2;
+    padding: 5px;
 }
 #NAME{
-  color: #F012BE;
+  color: pink;
 }
 .left img{
   border-radius: 40px;
-  border: 5px solid #001f3f;
+  border: 5px solid #000;
 }
 /* media queries(1024,1280,768,480)
 1280-1024 : Desktop
 768-480 : Tablet
 480 : mobile landscape (or)smaller device
 */
+
 @media only screen and (min-width:1024px) and (max-width:1280px){
   .main{
     display: flex;
     width: 100%;
+    flex-wrap: wrap;
   }
   .left{
-    width: 35%;
-    background-color: #985;
+    text-align: justify;
+    flex-wrap: wrap;
+    background-color: grey;
+    margin: 5px;
+    flex:1;
+    padding: 5px;
   }
   .right{
-    width: 75%;
-    background-color: #5436;
+    text-align: justify;
+  flex-wrap: wrap;
+    background-color: pink;
+    margin: 5px;
+    flex:1;
+    padding: 5px;
   }
 }
 @media only screen and (min-width:768px) and (max-width:1024px){
   .main{
     display: flex;
     width: 100%;
+    flex-wrap: wrap;
   }
   .left{
-    width: 35%;
+    text-align: justify;
+  flex-wrap: wrap;
     background-color: pink;
+    margin: 5px;
+    flex:1;
+    padding: 5px;
   }
   .right{
-    width: 75%;
-    background-color: green;
+    text-align: justify;
+      flex-wrap: wrap;
+    background-color: teal;
+     margin: 5px;
+      flex:1;
+      padding: 5px;
   }
 }
 @media only screen and (min-width:100px) and (max-width:768px){
   .main{
     display: flex;
     width: 100%;
+    flex-wrap: wrap;
   }
   .left{
-    width: 25%;
-    background-color: red;
+    text-align: justify;
+    flex-wrap: wrap;
+    background-color: silver;
+    margin: 5px;
+    flex:1;
+    padding: 5px;
   }
   .right{
-    width: 55%;
-    background-color: yellow;
+    text-align: justify;
+      flex-wrap: wrap;
+    background-color: cadetblue;
+    margin: 5px;
+    flex:1;
+    padding: 5px;
   }
 }
 }

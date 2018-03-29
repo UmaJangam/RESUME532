@@ -1,0 +1,49 @@
+{
+  "basics":{
+    "photo":"uma.jpg",
+    "NAME":"J.Uma",
+    "email":"umajangamuma97@gmail.com",
+    "phone":"8897559310"
+  },
+  "education":[
+    {
+      "course":"B.TECH(Computer Science and Engineering)",
+      "college":[
+        "Ravindra College of Engineering for Women",
+        "2015-2019",
+        "75%"
+      ]
+},
+  {
+
+        "course":"inter(MPC)",
+        "college":[
+          "Sri Chaintanya Junior College",
+          "2013-2015",
+          "95%"
+        ]
+  },
+  {
+      "course":"SSC",
+      "college":[
+        "Keshava Reddy Talent School",
+        "2013",
+        "85%"
+        ]
+}
+],
+  "skills":[
+    {
+      "name":"operating systems",
+      "value":"windows,linux"
+    },
+    {
+      "name":"programing skills",
+      "value":"c,c++,java"
+    },
+    {
+      "name":"web development",
+      "value":"html,php"
+    }
+  ]
+}
